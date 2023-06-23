@@ -4,6 +4,8 @@
 
 This is a Python application that allows you to load a PDF and ask questions about it using natural language. The application uses a LLM to generate a response about your PDF. The LLM will not answer questions unrelated to the document.
 
+__If you want to see video of the PDFGPT Press__ [here](https://www.linkedin.com/posts/md-anas-mondol_textsummarization-ai-llm-activity-7077030778185912320-GrIr?utm_source=share&utm_medium=member_desktop)
+
 ## How it works
 
 The application reads the PDF and splits the text into smaller chunks that can be then fed into a LLM. It uses OpenAI embeddings to create vector representations of the chunks. The application then finds the chunks that are semantically similar to the question that the user asked and feeds those chunks to the LLM to generate a response.
